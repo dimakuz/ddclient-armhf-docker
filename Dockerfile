@@ -1,5 +1,4 @@
-# FROM arm64v8/debian:9-slim
-FROM debian:9-slim
+FROM arm32v7/debian:9-slim
 
 LABEL image=dimakuz/ddclient-armhf
 MAINTAINER Dima Kuznetsov "dmitrykuzn@gmail.com"
